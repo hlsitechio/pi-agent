@@ -20,6 +20,9 @@ done
 echo "[*] Pulling cloud model configs..."
 ollama pull glm-4.7:cloud 2>/dev/null || true
 ollama pull glm-5:cloud 2>/dev/null || true
+ollama pull gpt-oss:120b-cloud 2>/dev/null || true
+ollama pull gpt-oss:20b-cloud 2>/dev/null || true
+ollama pull deepseek-v3.2:cloud 2>/dev/null || true
 
 # Ensure data directories exist on persistent volume
 mkdir -p /data/output /data/published /data/cowork /data/state
