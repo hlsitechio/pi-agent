@@ -27,6 +27,14 @@ ollama pull deepseek-v3.2:cloud 2>/dev/null || true
 # Ensure data directories exist on persistent volume
 mkdir -p /data/output /data/published /data/cowork /data/state
 
+# Write platforms.json from env var (secrets stay out of git)
+if [ -n "$PLATFORMS_JSON" ]; then
+  echo "$PLATFORMS_JSON" > /app/pi-agents/content/platforms.json
+  echo "[+] platforms.json loaded from env"
+elif [ ! -f /app/pi-agents/content/platforms.json ]; then
+  echo "[!] No platforms.json — publishing will fail"
+fi
+
 # Symlink data dirs into agent paths for compatibility
 ln -sf /data/output /app/pi-agents/content/article-writer/output 2>/dev/null || true
 ln -sf /data/published /app/pi-agents/content/published 2>/dev/null || true
