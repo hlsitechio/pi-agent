@@ -1,34 +1,19 @@
-FROM node:22-alpine AS builder
+# v3 — Debian slim for Ollama glibc compatibility
+FROM node:22-slim
 
-WORKDIR /build
-
-# Copy monorepo root for pi CLI build
-COPY package.json package-lock.json tsconfig.base.json tsconfig.json ./
-COPY packages/ packages/
-
-# Install deps and build pi CLI
-RUN npm ci --ignore-scripts 2>/dev/null || npm install
-RUN cd packages/coding-agent && npm run build 2>/dev/null || true
-
-# --- Production stage ---
-FROM node:22-alpine
-
-# System deps: zstd required by Ollama installer
-RUN apk add --no-cache curl bash tini jq python3 zstd && \
+# System deps: Ollama needs glibc (Alpine's musl breaks it)
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    curl bash tini jq python3 ca-certificates && \
+    rm -rf /var/lib/apt/lists/* && \
     curl -fsSL https://ollama.com/install.sh | sh
 
-# Install tsx for TypeScript extension loading
-RUN npm install -g tsx@4.21.0
+# Install pi CLI from npm + tsx for TypeScript extensions
+RUN npm install -g @mariozechner/pi-coding-agent@0.55.1 tsx@4.21.0
 
-# Copy built pi CLI from builder
-COPY --from=builder /build /app/pi-mono
-RUN ln -sf /app/pi-mono/packages/coding-agent/dist/cli.js /usr/local/bin/pi && \
-    chmod +x /usr/local/bin/pi
+# Create app structure
+RUN mkdir -p /app/pi-agents /data/output /data/published /data/cowork /data/state /root/.pi/agent /root/.ollama
 
-# Create data dirs
-RUN mkdir -p /data/output /data/published /data/cowork /data/state /root/.pi/agent /root/.ollama
-
-# Copy ghost writer worker files
+# Copy agent code + configs
 COPY ghost-writer/pi-agents/ /app/pi-agents/
 COPY ghost-writer/config/models.json /root/.pi/agent/models.json
 COPY ghost-writer/config/ollama-config.json /root/.ollama/config.json
