@@ -13,7 +13,7 @@ const AGENTS = {
   'trend-scanner':    { model: 'glm-4.7:cloud', timeout: 180 },
   'article-writer':   { model: 'glm-4.7:cloud', timeout: 180 },
   'article-editor':   { model: 'glm-4.7:cloud', timeout: 180 },
-  'article-reviewer': { model: 'glm-5:cloud',   timeout: 240 },
+  'article-reviewer': { model: 'gpt-oss:120b-cloud', timeout: 300 },
   'seo-optimizer':    { model: 'glm-4.7:cloud', timeout: 120 },
   'content-publisher':{ model: 'glm-4.7:cloud', timeout: 120 },
 };

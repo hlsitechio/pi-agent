@@ -15,14 +15,14 @@ TIMEOUT=240
 cd "$AGENT_HOME"
 
 echo "[*] Starting Article Reviewer agent..."
-echo "[i] Model: GLM-5:cloud (ollama)"
+echo "[i] Model: GPT-OSS:120B-cloud (ollama)"
 echo "[i] Tier: OBSERVE ($AGENT_TIER)"
 echo "[i] Timeout: ${TIMEOUT}s"
 echo ""
 
 timeout -k 10 "$TIMEOUT" pi \
   --provider ollama \
-  --model "glm-5:cloud" \
+  --model "gpt-oss:120b-cloud" \
   --extension "$EXTENSION" \
   --no-session \
   --thinking off \
