@@ -20,7 +20,7 @@ echo "[i] Tier: OBSERVE ($AGENT_TIER)"
 echo "[i] Timeout: ${TIMEOUT}s"
 echo ""
 
-timeout --kill-after=10 "$TIMEOUT" pi \
+timeout -k 10 "$TIMEOUT" pi \
   --provider ollama \
   --model "glm-5:cloud" \
   --extension "$EXTENSION" \
