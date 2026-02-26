@@ -1,0 +1,6 @@
+# Secrets - never commit
+*.env
+platforms.json
+supabase-config.env
+# Data dirs (on Railway volume)
+/data/

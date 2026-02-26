@@ -1,0 +1,28 @@
+{
+  "last_run": "2026-02-25T17:49:15Z",
+  "sub_agents": {
+    "bounty-triager": {
+      "exit_code": 0,
+      "status": "ok"
+    },
+    "bounty-estimator": {
+      "exit_code": 0,
+      "status": "ok"
+    },
+    "lead-tracker": {
+      "exit_code": 0,
+      "status": "ok"
+    },
+    "dispatcher": {
+      "exit_code": 0,
+      "status": "ok"
+    }
+  },
+  "agents_ok": 4,
+  "agents_fail": 0,
+  "pi_analysis": true,
+  "pi_response_length": 2033,
+  "discord_posted": true,
+  "dispatcher_queue": 0,
+  "summary": "Analytics Chief: 4/4 sub-agents OK. AI briefing delivered. Queue: 0 pending."
+}

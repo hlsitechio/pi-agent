@@ -1,0 +1,8 @@
+[
+  {"type": "false_positive", "agent": "technique-librarian", "detail": "Weekly schedule (Sun 01:00) — 7-day gap between runs is normal"},
+  {"type": "false_positive", "agent": "cve-scorer", "detail": "Weekly schedule (Sun 00:00) — 7-day gap between runs is normal"},
+  {"type": "false_positive", "agent": "lead-tracker", "detail": "Daily schedule (06:00) — 24h gap between runs is normal"},
+  {"type": "false_positive", "agent": "earnings-tracker", "detail": "Weekly schedule (Sun 02:00) — 7-day gap between runs is normal"},
+  {"type": "resolved", "service": "discord_webhooks", "detail": "Webhooks regenerated 2026-02-25 — 27 channels, all 204 OK"},
+  {"type": "known_issue", "service": "scope", "detail": "approved-scope.json is empty — hunter/recon agents will abort by design until targets are loaded"}
+]

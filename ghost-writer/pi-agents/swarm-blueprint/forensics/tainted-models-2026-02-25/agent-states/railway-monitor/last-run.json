@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-02-25T21:00:01Z",
+  "agent": "railway-monitor",
+  "tier": 1,
+  "overall_status": "healthy",
+  "healthy_count": 1,
+  "degraded_count": 0,
+  "down_count": 0,
+  "critical_down": 0,
+  "cli_available": false,
+  "services_checked": ["d3bugr"]
+}

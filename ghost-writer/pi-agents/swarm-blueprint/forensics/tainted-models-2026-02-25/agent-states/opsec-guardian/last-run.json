@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-02-25T21:20:01Z",
+  "status": "WARNING",
+  "passed": 7,
+  "warnings": 2,
+  "failures": 0,
+  "checks": {
+    "vpn_connected": true,
+    "vpn_location": "Montreal, Canada",
+    "vpn_ip": "",
+    "dns_leak": "possible",
+    "bounty_drive_mounted": true,
+    "tor_running": true,
+    "ssh_sessions": 0,
+    "suspicious_processes": 0,
+    "kill_switches_active": false
+  }
+}

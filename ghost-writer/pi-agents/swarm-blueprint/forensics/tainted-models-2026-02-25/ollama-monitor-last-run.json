@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-02-25T21:15:01Z",
+  "agent": "ollama-monitor",
+  "tier": 1,
+  "status": "healthy",
+  "available_models": ["glm-5:cloud", "nurullahunlu/kimik2.5cloud:latest", "m2.5-strike:latest", "minimax-m2.5:cloud", "deepseek-v3.2:cloud", "worker-report-generator:latest", "worker-visitor-profiler:latest", "worker-intel-analyst:latest", "kimi-fast:latest", "kimi-k2.5:cloud"],
+  "model_count": 10,
+  "target_model": "kimi-k2.5:cloud",
+  "target_model_available": true,
+  "inference_status": "passed",
+  "api_responding": true
+}

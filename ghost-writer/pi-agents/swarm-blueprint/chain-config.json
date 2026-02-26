@@ -1,0 +1,57 @@
+{
+  "chains": [
+    {
+      "id": "cve-pipeline",
+      "description": "CVE detection → analysis → scoring → triage",
+      "steps": [
+        {"agent": "cve-monitor", "triggers": ["cve-master"]},
+        {"agent": "cve-master", "triggers": ["bounty-triager"]},
+        {"agent": "bounty-triager", "triggers": ["bounty-estimator"]}
+      ]
+    },
+    {
+      "id": "news-pipeline",
+      "description": "News detection → deep analysis",
+      "steps": [
+        {"agent": "hackernews-agent", "triggers": ["news-analyst"]},
+        {"agent": "news-analyst", "triggers": ["technique-librarian"]}
+      ]
+    },
+    {
+      "id": "scope-pipeline",
+      "description": "Scope change → recon",
+      "steps": [
+        {"agent": "scope-watcher", "triggers": ["subdomain-enumerator"]},
+        {"agent": "subdomain-enumerator", "triggers": ["port-scanner"]},
+        {"agent": "port-scanner", "triggers": ["vuln-scanner"]}
+      ]
+    },
+    {
+      "id": "exploit-pipeline",
+      "description": "Exploit detection → analysis → triage",
+      "steps": [
+        {"agent": "exploit-db-watcher", "triggers": ["bounty-triager"]}
+      ]
+    },
+    {
+      "id": "threat-pipeline",
+      "description": "Threat intel → triage",
+      "steps": [
+        {"agent": "threat-intel-aggregator", "triggers": ["bounty-triager"]}
+      ]
+    },
+    {
+      "id": "ghost-pipeline",
+      "description": "👻 Ghost: Trend detection → article creation → SEO → artwork → publish",
+      "steps": [
+        {"agent": "trend-scanner", "triggers": ["article-writer"]},
+        {"agent": "article-writer", "triggers": ["article-editor"]},
+        {"agent": "article-editor", "triggers": ["seo-optimizer"]},
+        {"agent": "seo-optimizer", "triggers": ["artwork-generator"]},
+        {"agent": "artwork-generator", "triggers": ["content-publisher"]}
+      ]
+    }
+  ],
+  "trigger_method": "file",
+  "trigger_dir": "/tmp/swarm-triggers/"
+}

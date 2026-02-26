@@ -1,0 +1,11 @@
+Looking at your current state vs. the **previous critical warning** (>6h on CA-MTL):
+
+---
+
+### VPN/OPSEC Assessment — 212.15.86.25 (CA-MTL)
+
+• **CONNECTION HEALTH: STABLE** — Tunnel active, no drops detected  
+• **OPSEC RISK: ⚠️ CRITICAL — STATIONARY TARGET / FVEY EXPOSURE** — Same CA exit for >6h after rotation directive; temporal signature exposed, passive SIGINT window maximized  
+• **IMMEDIATE ACTION: SERVER ROTATION** — Disconnect now; rotate to non-FVEY exit (CH, SG, RO, BR); blacklist current route ~24-48h  
+• **VERIFICATION: ZERO-LEAK CHECK** — `curl -s https://ipinfo.io/ip` → confirm 212.15.86.25; `ip route | grep default` → confirm tun interface only  
+• **ACTION: SESSION ATTRIBUTION PIVOT** — Regenerate auth tokens/cookies; clear DNS cache; rotate any API keys from this session 

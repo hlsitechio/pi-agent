@@ -1,0 +1,56 @@
+{
+  "timestamp": "2026-02-25T04:10:01Z",
+  "hostname": "kali",
+  "memory_health": {
+    "score": 55,
+    "risk": "HIGH",
+    "state_md_status": "MISSING",
+    "state_md_age": -1,
+    "mci_status": "OK",
+    "mci_lines": 20,
+    "compact_count": 2,
+    "compact_thrashing": "NO"
+  },
+  "agent_inventory": {
+    "total": 49,
+    "active": 29,
+    "zombie": 1,
+    "never_ran": 20,
+    "zombies": [
+      "technique-librarian"
+    ],
+    "never_ran_list": [
+      "agent-reviewer",
+      "cve-scorer",
+      "dns-recon-agent",
+      "idor-checker",
+      "port-scanner",
+      "sqli-hunter",
+      "ssrf-prober",
+      "subdomain-enumerator",
+      "vuln-scanner",
+      "xss-hunter",
+      "content/article-editor",
+      "content/article-writer",
+      "content/artwork-generator",
+      "content/content-memory-keeper",
+      "content/content-publisher",
+      "content/earnings-tracker",
+      "content/seo-optimizer",
+      "content/trend-scanner",
+      "chiefs/hunter-chief",
+      "chiefs/recon-chief"
+    ]
+  },
+  "session_info": {
+    "path": "/mnt/bounty/Claude/.claude-memory/sessions/2026-02-25/session-1",
+    "total_sessions": 15,
+    "total_compacts": 55
+  },
+  "goal": "",
+  "progress": {
+    "done": 0,
+    "todo": 0
+  },
+  "fixes_applied": 1
+}

@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-02-25T21:20:01Z",
+  "agent": "d3bugr-monitor",
+  "tier": 1,
+  "status": "healthy",
+  "http_code": "200",
+  "response_time": "0.153868",
+  "endpoint": "https://d3bugr-production.up.railway.app/health"
+}

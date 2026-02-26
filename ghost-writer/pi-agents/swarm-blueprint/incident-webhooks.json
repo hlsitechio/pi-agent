@@ -1,0 +1,37 @@
+{
+  "_comment": "UNIFIED INCIDENT SYSTEM — All incidents go to ONE channel",
+  "_classification": "⚙️ OPS — Type + Status tracked via embed fields",
+  "_updated": "2026-02-25",
+  "_workflow": "All incident types → #incidents (type in embed color, status in embed field)",
+
+  "agent-failures": {
+    "channel_id": "1475694585505255567",
+    "webhook_url": "https://discord.com/api/webhooks/1476046211176861776/oACRlozdNxDbNaYM3nbNvJo2PGLowQNzt4A5IUUEFuq6EQLGwAFllmzsbWeO2n_yij6G",
+    "description": "Agent crashes, timeouts, unexpected exits",
+    "reporters": ["manager", "error-watcher", "health-checker", "all-agents-on-fatal"]
+  },
+  "opsec-violations": {
+    "channel_id": "1475694585505255567",
+    "webhook_url": "https://discord.com/api/webhooks/1476046211176861776/oACRlozdNxDbNaYM3nbNvJo2PGLowQNzt4A5IUUEFuq6EQLGwAFllmzsbWeO2n_yij6G",
+    "description": "VPN drops, IP leaks, DNS leaks, rate limit breaches",
+    "reporters": ["manager", "opsec-guardian", "vpn-sentinel", "rate-monitor"]
+  },
+  "resource-alerts": {
+    "channel_id": "1475694585505255567",
+    "webhook_url": "https://discord.com/api/webhooks/1476046211176861776/oACRlozdNxDbNaYM3nbNvJo2PGLowQNzt4A5IUUEFuq6EQLGwAFllmzsbWeO2n_yij6G",
+    "description": "CPU/MEM/DISK warnings, resource exhaustion, runaway processes",
+    "reporters": ["manager", "ollama-monitor"]
+  },
+  "remediation-log": {
+    "channel_id": "1475694585505255567",
+    "webhook_url": "https://discord.com/api/webhooks/1476046211176861776/oACRlozdNxDbNaYM3nbNvJo2PGLowQNzt4A5IUUEFuq6EQLGwAFllmzsbWeO2n_yij6G",
+    "description": "Auto-restart actions, fixes applied, recovery timeline",
+    "reporters": ["manager"]
+  },
+  "service-outages": {
+    "channel_id": "1475694585505255567",
+    "webhook_url": "https://discord.com/api/webhooks/1476046211176861776/oACRlozdNxDbNaYM3nbNvJo2PGLowQNzt4A5IUUEFuq6EQLGwAFllmzsbWeO2n_yij6G",
+    "description": "Ollama/Railway/D3BUGR/Supabase service failures",
+    "reporters": ["manager", "d3bugr-monitor", "ollama-monitor", "railway-monitor", "supabase-monitor"]
+  }
+}

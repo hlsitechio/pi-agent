@@ -1,0 +1,66 @@
+**ANALYTICS BRIEFING — 2026-02-25**
+
+**PORTFOLIO SUMMARY:**
+- Scope targets: **0** (EMPTY)
+- Open leads: **0** (26 placeholder entries, all "SCOPE-EMPTY")
+- Pending estimates: **0**
+- Queue: Clear (0 items)
+
+**LEAD RANKING:**  
+*N/A — No triaged vulns. Ranking blocked by empty scope.*
+
+**CROSS-REFERENCE ANALYSIS:**
+| Triage | Est | Status |
+|--------|-----|--------|
+| 26 placeholders | 0 | **BLOCKED** |
+
+⚠️ **All 26 triager outputs are scope-empty placeholders. 0 actual vulns triaged.**
+
+**PERFORMANCE TRACKING:**
+- Triaged findings: **0** (excl. placeholders)
+- Estimates: **0**
+- Pipeline: `triaged → estimated → submitted → paid` = **0% at all stages**
+- Win rate: N/A (no submissions)
+
+---
+
+**ROI RECOMMENDATIONS:**
+
+**IMMEDIATE (P0):**
+1. **`scope.json` EMPTY`** — Add domains/wildcards/IPs or bounty ops cannot function
+2. **Activate dispatcher** — 25 agents idle, 0 work distributed
+3. **Fix bounty-triager logic** — Currently outputting placeholders instead of actual vulns
+
+**FOCUS PRIORITY:**
+| Priority | Action | Impact |
+|----------|--------|--------|
+| 1 | Populate scope.json | Unblocks entire pipeline |
+| 2 | Review 28 tracked programs | Select high-payout targets |
+| 3 | Restart bounty-triager | Generate real vuln candidates |
+
+**PROGRAMS TO WATCH:**
+- 28 programs tracked by lead-tracker — **scope.json filtering needed**
+
+---
+
+**OPERATIONAL NOTES:**
+
+**🔴 CRITICAL:** `scope.json` domains=[], wildcards=[], ips=[] — **HUNTING IMPOSSIBLE**
+
+**Agent Health:**
+| Status | Count |
+|--------|-------|
+| Healthy | 4 (recent runs) |
+| Never run | 11 (xss-hunter, sqli-hunter, ssrf-prober, etc.) |
+| Timed out | 1 (news-analyst) |
+| Unknown/broken | 4 |
+
+**Data Quality Issues:**
+- Triager producing placeholder strings instead of CVEs/vulns
+- Estimator received 0 valid inputs
+- 25 agents active but 0 productive output
+
+**Next Actions for Commander:**
+1. `/scope.json` ← Add targets (H1 programs, self-managed assets)
+2. Audit triager — why scope-empty on every run?
+3. Verify dispatcher connection to agent swarm

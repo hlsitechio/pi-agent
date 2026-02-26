@@ -1,0 +1,480 @@
+{
+  "generated_at": "2026-02-26T18:10:32+00:00Z",
+  "generated_by": "manager-bot",
+  "org": {
+    "name": "Pi Swarm",
+    "commander": "rainkode",
+    "manager": "clawbot_rainkode#4920",
+    "mode": "operational",
+    "divisions": [
+      "intel",
+      "ops",
+      "recon",
+      "hunting",
+      "analytics",
+      "content"
+    ]
+  },
+  "agents": {
+    "total": 45,
+    "healthy": 35,
+    "late": 0,
+    "down": 0,
+    "paused": 9,
+    "roster": {
+      "cve-monitor": {
+        "status": "healthy",
+        "tier": 0,
+        "division": "intel",
+        "schedule": "*/15 * * * *",
+        "desc": "NVD/CISA CVE feed monitor"
+      },
+      "cve-master": {
+        "status": "healthy",
+        "tier": 0,
+        "division": "intel",
+        "schedule": "*/15 * * * *",
+        "desc": "CVE correlation + scoring engine"
+      },
+      "cve-scorer": {
+        "status": "healthy",
+        "tier": 0,
+        "division": "intel",
+        "schedule": "0 0 * * 0",
+        "desc": "Weekly CVE bounty relevance scorer"
+      },
+      "hackernews-agent": {
+        "status": "healthy",
+        "tier": 0,
+        "division": "intel",
+        "schedule": "*/30 * * * *",
+        "desc": "HackerNews security post monitor"
+      },
+      "exploit-db-watcher": {
+        "status": "healthy",
+        "tier": 0,
+        "division": "intel",
+        "schedule": "15 * * * *",
+        "desc": "ExploitDB new exploit tracker"
+      },
+      "news-analyst": {
+        "status": "healthy",
+        "tier": 0,
+        "division": "intel",
+        "schedule": "4 */2 * * *",
+        "desc": "Security news aggregator + analysis"
+      },
+      "technique-librarian": {
+        "status": "healthy",
+        "tier": 0,
+        "division": "intel",
+        "schedule": "0 1 * * 0",
+        "desc": "Weekly technique catalog builder"
+      },
+      "threat-intel-aggregator": {
+        "status": "healthy",
+        "tier": 0,
+        "division": "intel",
+        "schedule": "30 */2 * * *",
+        "desc": "Multi-source threat intel fusion"
+      },
+      "vpn-sentinel": {
+        "status": "healthy",
+        "tier": 1,
+        "division": "ops",
+        "schedule": "*/5 * * * *",
+        "desc": "VPN connectivity watchdog"
+      },
+      "rate-monitor": {
+        "status": "healthy",
+        "tier": 1,
+        "division": "ops",
+        "schedule": "*/5 * * * *",
+        "desc": "API rate limit tracker"
+      },
+      "health-checker": {
+        "status": "healthy",
+        "tier": 1,
+        "division": "ops",
+        "schedule": "*/10 * * * *",
+        "desc": "Agent health scanner"
+      },
+      "error-watcher": {
+        "status": "healthy",
+        "tier": 1,
+        "division": "ops",
+        "schedule": "*/10 * * * *",
+        "desc": "Error log aggregator"
+      },
+      "memory-custodian": {
+        "status": "paused",
+        "tier": 1,
+        "division": "ops",
+        "schedule": "*/10 * * * *",
+        "desc": "Memory file maintenance",
+        "reason": "Circuit breaker: 3 consecutive failures",
+        "consecutive_failures": 3
+      },
+      "opsec-guardian": {
+        "status": "healthy",
+        "tier": 1,
+        "division": "ops",
+        "schedule": "*/10 * * * *",
+        "desc": "OPSEC violation detector"
+      },
+      "capture-monitor": {
+        "status": "healthy",
+        "tier": 1,
+        "division": "ops",
+        "schedule": "*/10 * * * *",
+        "desc": "Screenshot/capture processor"
+      },
+      "trap-monitor": {
+        "status": "healthy",
+        "tier": 1,
+        "division": "ops",
+        "schedule": "*/10 * * * *",
+        "desc": "Honeypot/trap detection"
+      },
+      "d3bugr-monitor": {
+        "status": "healthy",
+        "tier": 1,
+        "division": "ops",
+        "schedule": "*/10 * * * *",
+        "desc": "D3BUGR Railway health probe"
+      },
+      "ollama-monitor": {
+        "status": "healthy",
+        "tier": 1,
+        "division": "ops",
+        "schedule": "*/15 * * * *",
+        "desc": "Ollama LLM service monitor"
+      },
+      "railway-monitor": {
+        "status": "healthy",
+        "tier": 1,
+        "division": "ops",
+        "schedule": "*/30 * * * *",
+        "desc": "Railway deployment monitor"
+      },
+      "supabase-monitor": {
+        "status": "healthy",
+        "tier": 1,
+        "division": "ops",
+        "schedule": "*/30 * * * *",
+        "desc": "Supabase health + usage monitor"
+      },
+      "dispatcher": {
+        "status": "paused",
+        "tier": 1,
+        "division": "ops",
+        "schedule": "*/2 * * * *",
+        "desc": "Chain trigger dispatcher",
+        "reason": "Circuit breaker: 3 consecutive failures",
+        "consecutive_failures": 3
+      },
+      "scope-watcher": {
+        "status": "healthy",
+        "tier": 2,
+        "division": "recon",
+        "schedule": "6 */6 * * *",
+        "desc": "Bounty scope change detector"
+      },
+      "subdomain-enumerator": {
+        "status": "healthy",
+        "tier": 2,
+        "division": "recon",
+        "schedule": "on-demand",
+        "desc": "Subdomain discovery (passive+active)"
+      },
+      "dns-recon-agent": {
+        "status": "healthy",
+        "tier": 2,
+        "division": "recon",
+        "schedule": "on-demand",
+        "desc": "DNS reconnaissance agent"
+      },
+      "port-scanner": {
+        "status": "healthy",
+        "tier": 2,
+        "division": "recon",
+        "schedule": "on-demand",
+        "desc": "Nmap port scanning agent"
+      },
+      "bounty-triager": {
+        "status": "healthy",
+        "tier": 3,
+        "division": "hunting",
+        "schedule": "30 */2 * * *",
+        "desc": "Finding triage + priority scoring"
+      },
+      "bounty-estimator": {
+        "status": "healthy",
+        "tier": 3,
+        "division": "hunting",
+        "schedule": "8 */4 * * *",
+        "desc": "Bounty reward estimator"
+      },
+      "lead-tracker": {
+        "status": "healthy",
+        "tier": 3,
+        "division": "hunting",
+        "schedule": "0 6 * * *",
+        "desc": "Daily hunting lead prioritizer"
+      },
+      "vuln-scanner": {
+        "status": "healthy",
+        "tier": 3,
+        "division": "hunting",
+        "schedule": "on-demand",
+        "desc": "Nuclei vulnerability scanner"
+      },
+      "sqli-hunter": {
+        "status": "healthy",
+        "tier": 3,
+        "division": "hunting",
+        "schedule": "on-demand",
+        "desc": "SQL injection hunter"
+      },
+      "xss-hunter": {
+        "status": "healthy",
+        "tier": 3,
+        "division": "hunting",
+        "schedule": "on-demand",
+        "desc": "XSS vulnerability hunter"
+      },
+      "ssrf-prober": {
+        "status": "healthy",
+        "tier": 3,
+        "division": "hunting",
+        "schedule": "on-demand",
+        "desc": "SSRF detection agent"
+      },
+      "idor-checker": {
+        "status": "healthy",
+        "tier": 3,
+        "division": "hunting",
+        "schedule": "on-demand",
+        "desc": "IDOR/access control tester"
+      },
+      "agent-reviewer": {
+        "status": "paused",
+        "tier": 0,
+        "division": "analytics",
+        "schedule": "12 */2 * * *",
+        "desc": "Agent performance reviewer",
+        "reason": "Circuit breaker: 3 consecutive failures",
+        "consecutive_failures": 3
+      },
+      "trend-scanner": {
+        "status": "healthy",
+        "tier": 0,
+        "division": "content",
+        "schedule": "0 1,7,13,19 * * *",
+        "desc": "Security content trend scanner"
+      },
+      "article-writer": {
+        "status": "healthy",
+        "tier": 0,
+        "division": "content",
+        "schedule": "0 2,10,18 * * *",
+        "desc": "Article draft generator"
+      },
+      "article-editor": {
+        "status": "healthy",
+        "tier": 0,
+        "division": "content",
+        "schedule": "30 2,10,18 * * *",
+        "desc": "Article editor + anti-slop"
+      },
+      "seo-optimizer": {
+        "status": "healthy",
+        "tier": 0,
+        "division": "content",
+        "schedule": "0 8,20 * * *",
+        "desc": "SEO meta/keywords optimizer"
+      },
+      "artwork-generator": {
+        "status": "healthy",
+        "tier": 0,
+        "division": "content",
+        "schedule": "0 8,20 * * *",
+        "desc": "Article artwork via Pollinations.ai"
+      },
+      "content-publisher": {
+        "status": "healthy",
+        "tier": 0,
+        "division": "content",
+        "schedule": "30 */6 * * *",
+        "desc": "Multi-platform publisher"
+      },
+      "earnings-tracker": {
+        "status": "healthy",
+        "tier": 0,
+        "division": "content",
+        "schedule": "0 2 * * 0",
+        "desc": "Weekly content earnings report"
+      },
+      "content-memory-keeper": {
+        "status": "healthy",
+        "tier": 0,
+        "division": "content",
+        "schedule": "17 */2 * * *",
+        "desc": "Content pipeline memory sync"
+      },
+      "intel-chief": {
+        "status": "paused",
+        "tier": 0,
+        "division": "intel",
+        "schedule": "4 */2 * * *",
+        "desc": "Intelligence division commander",
+        "reason": "Circuit breaker: 3 consecutive failures",
+        "consecutive_failures": 3
+      },
+      "ops-chief": {
+        "status": "paused",
+        "tier": 1,
+        "division": "ops",
+        "schedule": "*/15 * * * *",
+        "desc": "Operations division commander",
+        "reason": "Circuit breaker: 3 consecutive failures",
+        "consecutive_failures": 3
+      },
+      "recon-chief": {
+        "status": "paused",
+        "tier": 2,
+        "division": "recon",
+        "schedule": "17 */2 * * *",
+        "desc": "Recon division commander",
+        "reason": "Circuit breaker: 3 consecutive failures",
+        "consecutive_failures": 3
+      },
+      "hunter-chief": {
+        "status": "paused",
+        "tier": 3,
+        "division": "hunting",
+        "schedule": "32 */4 * * *",
+        "desc": "Hunting division commander",
+        "reason": "Circuit breaker: 3 consecutive failures",
+        "consecutive_failures": 3
+      },
+      "analytics-chief": {
+        "status": "paused",
+        "tier": 0,
+        "division": "analytics",
+        "schedule": "47 */3 * * *",
+        "desc": "Analytics division commander",
+        "reason": "Circuit breaker: 3 consecutive failures",
+        "consecutive_failures": 3
+      },
+      "content-chief": {
+        "status": "paused",
+        "tier": 0,
+        "division": "content",
+        "schedule": "4 */4 * * *",
+        "desc": "Content division commander",
+        "reason": "Circuit breaker: 3 consecutive failures",
+        "consecutive_failures": 3
+      }
+    }
+  },
+  "services": {
+    "vpn": {
+      "status": "connected",
+      "provider": "nordvpn"
+    },
+    "ollama": {
+      "status": "up",
+      "model": "kimi-k2.5:cloud"
+    },
+    "supabase": {
+      "status": "up"
+    },
+    "d3bugr": {
+      "status": "up"
+    },
+    "discord_webhooks": {
+      "status": "down",
+      "note": "Webhooks regenerated 2026-02-25 \u2014 27 channels, all 204 OK"
+    }
+  },
+  "known_conditions": [
+    {
+      "type": "false_positive",
+      "agent": "technique-librarian",
+      "detail": "Weekly schedule (Sun 01:00) \u2014 7-day gap between runs is normal"
+    },
+    {
+      "type": "false_positive",
+      "agent": "cve-scorer",
+      "detail": "Weekly schedule (Sun 00:00) \u2014 7-day gap between runs is normal"
+    },
+    {
+      "type": "false_positive",
+      "agent": "lead-tracker",
+      "detail": "Daily schedule (06:00) \u2014 24h gap between runs is normal"
+    },
+    {
+      "type": "false_positive",
+      "agent": "earnings-tracker",
+      "detail": "Weekly schedule (Sun 02:00) \u2014 7-day gap between runs is normal"
+    },
+    {
+      "type": "resolved",
+      "service": "discord_webhooks",
+      "detail": "Webhooks regenerated 2026-02-25 \u2014 27 channels, all 204 OK"
+    },
+    {
+      "type": "known_issue",
+      "service": "scope",
+      "detail": "approved-scope.json is empty \u2014 hunter/recon agents will abort by design until targets are loaded"
+    }
+  ],
+  "thresholds": {
+    "vpn-sentinel": 900,
+    "rate-monitor": 900,
+    "capture-monitor": 1800,
+    "d3bugr-monitor": 1800,
+    "error-watcher": 1800,
+    "health-checker": 1800,
+    "memory-custodian": 1800,
+    "opsec-guardian": 1800,
+    "trap-monitor": 1800,
+    "cve-monitor": 2700,
+    "cve-master": 2700,
+    "ollama-monitor": 2700,
+    "hackernews-agent": 5400,
+    "railway-monitor": 5400,
+    "supabase-monitor": 5400,
+    "exploit-db-watcher": 10800,
+    "news-analyst": 10800,
+    "bounty-triager": 18000,
+    "threat-intel-aggregator": 18000,
+    "bounty-estimator": 36000,
+    "scope-watcher": 50400,
+    "lead-tracker": 129600,
+    "technique-librarian": 691200,
+    "cve-scorer": 691200,
+    "trend-scanner": 28800,
+    "article-writer": 28800,
+    "article-editor": 28800,
+    "seo-optimizer": 36000,
+    "artwork-generator": 36000,
+    "content-publisher": 50400,
+    "earnings-tracker": 691200,
+    "content-memory-keeper": 10800,
+    "dispatcher": 900,
+    "ops-chief": 5400,
+    "intel-chief": 10800,
+    "recon-chief": 14400,
+    "analytics-chief": 14400,
+    "content-chief": 18000,
+    "hunter-chief": 18000,
+    "_default": 7200
+  },
+  "scope": {
+    "active_targets": 0,
+    "status": "empty",
+    "note": "No targets loaded."
+  }
+}

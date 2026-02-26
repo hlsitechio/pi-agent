@@ -1,0 +1,36 @@
+{
+  "total_published": 2,
+  "articles": [],
+  "platforms": {
+    "medium": {
+      "count": 0,
+      "total_views": 0,
+      "total_earnings": 0
+    },
+    "devto": {
+      "count": 0,
+      "total_views": 0,
+      "total_reactions": 0
+    },
+    "hashnode": {
+      "count": 0,
+      "total_views": 0
+    },
+    "hackernoon": {
+      "count": 0,
+      "total_views": 0
+    }
+  },
+  "last_publish_run": "2026-02-26T17:45:10.667Z",
+  "last_summary": "CONTENT PUBLISHER run completed. Found 4 articles in \"edited\" status ready for publishing, but NONE have required review_verdict: \"APPROVED\" in cowork context. Cannot proceed without review approval. Articles pending review before publication to dev.to. PUBLISHED: 0, SKIPPED: 4 (awaiting review).",
+  "history": [
+    {
+      "date": "2026-02-26T15:40:44.649Z",
+      "summary": "Published \"Starkiller Phishing: MFA Bypass via Reverse Proxies\" to dev.to. URL: https://dev.to/rainkode/starkiller-phishing-mfa-bypass-via-reverse-proxies-3gpf. Article archived to published/. Tags: phishing,security,mfa,webdev"
+    },
+    {
+      "date": "2026-02-26T17:45:10.667Z",
+      "summary": "CONTENT PUBLISHER run completed. Found 4 articles in \"edited\" status ready for publishing, but NONE have required review_verdict: \"APPROVED\" in cowork context. Cannot proceed without review approval. Articles pending review before publication to dev.to. PUBLISHED: 0, SKIPPED: 4 (awaiting review)."
+    }
+  ]
+}

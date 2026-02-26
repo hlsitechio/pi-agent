@@ -1,0 +1,997 @@
+{
+  "last_updated": "2026-02-26T17:00:47.219Z",
+  "topics": [
+    {
+      "title": "AI Agents Gone Rogue: Inside Amazon Kiro's Production Deletion",
+      "category": "ai-tech",
+      "angle": "What we learn from 10 documented AI agent failures and the patterns they reveal about autonomous system risks",
+      "key_points": [
+        "Amazon Kiro deleted a production environment causing a 13-hour AWS outage",
+        "10 documented cases show similar failure patterns: insufficient guardrails, lack of human-in-the-loop",
+        "Cross-reference with NIST's new AI agent security RFI for best practices",
+        "Recommendations for safe AI agent deployment in production"
+      ],
+      "trending_score": 10,
+      "monetization_potential": 9,
+      "competition": 3,
+      "combined_score": 8.6,
+      "source_urls": [
+        "https://blog.barrack.ai/amazon-ai-agents-deleting-production",
+        "https://www.federalregister.gov/documents/2026/01/08/2026-00206/request-for-information-regarding-security-considerations-for-artificial-intelligence-agents"
+      ],
+      "suggested_platforms": [
+        "medium",
+        "dev.to",
+        "hackernoon"
+      ],
+      "status": "drafted",
+      "added_at": "2026-02-24T03:14:52.468Z",
+      "scanned_by": "trend-scanner",
+      "writing_started": "2026-02-24T05:00:06.582Z",
+      "draft_file": "/mnt/bounty/Claude/pi-agents/content/article-writer/output/2026-02-24-ai-agents-gone-rogue-inside-amazon-kiro-s-production-deletio.md",
+      "drafted_at": "2026-02-24T05:01:25.756Z"
+    },
+    {
+      "title": "RoundCube Email Zero-Days: Why Webmail Is Suddenly High-Risk",
+      "category": "cybersecurity",
+      "angle": "Analysis of simultaneous RoundCube CVEs (2025-49113, 2025-68461) and why enterprise email clients are becoming attractive targets",
+      "key_points": [
+        "Two CISA KEV CVEs dropped same day for RoundCube: deserialization and XSS",
+        "Webmail represents a high-value, often overlooked attack surface",
+        "Comparison with recent GitLab SSRF (CVE-2021-22175) - coordinated attacks on dev infrastructure",
+        "Self-hosted vs cloud email: security trade-offs examined"
+      ],
+      "trending_score": 9,
+      "monetization_potential": 7,
+      "competition": 4,
+      "combined_score": 7.6,
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/cisa-recently-patched-roundcube-flaws-now-exploited-in-attacks/",
+        "https://thehackernews.com/2026/02/cisa-adds-two-actively-exploited.html"
+      ],
+      "suggested_platforms": [
+        "medium",
+        "infosec.writeas",
+        "substack"
+      ],
+      "status": "drafted",
+      "added_at": "2026-02-24T03:14:52.468Z",
+      "scanned_by": "trend-scanner",
+      "writing_started": "2026-02-24T09:00:05.283Z",
+      "draft_file": "/mnt/bounty/Claude/pi-agents/content/article-writer/output/2026-02-24-roundcube-email-zero-days-why-webmail-is-suddenly-high-risk.md",
+      "drafted_at": "2026-02-24T09:02:08.448Z"
+    },
+    {
+      "title": "The Firefox Typo That Led to Remote Code Execution",
+      "category": "bug-bounty",
+      "angle": "Deep dive into CVE analysis showing how a simple typo in C++ code became a zero-day, lessons for security researchers",
+      "key_points": [
+        "Single character error led to critical RCE in Firefox",
+        "Technical breakdown of the bug: code patterns and failure mode",
+        "How researchers discovered it via fuzzing and code review techniques",
+        "Takeaways for developers: static analysis, code review checklists",
+        "Bug bounty implications: Firefox payouts vs industry standards"
+      ],
+      "trending_score": 8,
+      "monetization_potential": 7,
+      "competition": 3,
+      "combined_score": 7.2,
+      "source_urls": [
+        "https://kqx.io/post/firefox0day/",
+        "https://old.reddit.com/r/netsec/comments/1rb7r6g/how_a_single_typo_led_to_rce_in_firefox/"
+      ],
+      "suggested_platforms": [
+        "medium",
+        "hackerone blog",
+        "dev.to"
+      ],
+      "status": "drafted",
+      "added_at": "2026-02-24T03:14:52.468Z",
+      "scanned_by": "trend-scanner",
+      "writing_started": "2026-02-24T13:01:05.077Z",
+      "draft_file": "/mnt/bounty/Claude/pi-agents/content/article-writer/output/2026-02-24-how-your-samsung-weather-app-became-a-tracking-beacon.md",
+      "drafted_at": "2026-02-24T17:32:49.123Z"
+    },
+    {
+      "title": "How Your Samsung Weather App Became a Tracking Beacon",
+      "category": "privacy-opsec",
+      "angle": "Investigating cross-app tracking via saved weather locations: the privacy tracking vector you didn't think to check",
+      "key_points": [
+        "Samsung Weather app locations create persistent cross-session identifiers",
+        "Technical explanation: how apps fingerprint via secondary app data",
+        "Broader implications: weather apps, fitness apps, calculator apps as tracking vectors",
+        "OPSEC recommendations for mobile device privacy",
+        "Comparison with other stealth tracking methods"
+      ],
+      "trending_score": 8,
+      "monetization_potential": 6,
+      "competition": 2,
+      "combined_score": 6.8,
+      "source_urls": [
+        "https://www.buchodi.com/your-samsung-weather-app-is-a-fingerprint/",
+        "https://www.bleepingcomputer.com/news/security/when-identity-isnt-the-weak-link-access-still-is/"
+      ],
+      "suggested_platforms": [
+        "medium",
+        "privacytools.io",
+        "substack"
+      ],
+      "status": "drafted",
+      "added_at": "2026-02-24T03:14:52.468Z",
+      "scanned_by": "trend-scanner",
+      "writing_started": "2026-02-24T17:31:34.094Z",
+      "draft_file": "/mnt/bounty/Claude/pi-agents/content/article-writer/output/2026-02-25-firefox-148-s-sethtml-how-mozilla-finally-killed-innerhtml-x.md",
+      "drafted_at": "2026-02-25T01:06:15.736Z"
+    },
+    {
+      "title": "Ladybird's Rust Pivot: What Browser Security Looks Like in 2026",
+      "category": "devops-cloud",
+      "angle": "Analyzing Ladybird browser's Rust adoption decision and what it means for C++ vs Rust in systems security long-term",
+      "key_points": [
+        "Ladybird (independent web engine) announces Rust integration with AI assistance",
+        "Memory safety debate: C++ vs Rust in browser engines post-Chromium criticism",
+        "Role of AI in legacy codebase migration - opportunities and risks",
+        "Implications for bug bounty hunters: new attack surface emerging",
+        "Browser diversity and security through monoculture avoidance"
+      ],
+      "trending_score": 9,
+      "monetization_potential": 6,
+      "competition": 5,
+      "combined_score": 7,
+      "source_urls": [
+        "https://ladybird.org/posts/adopting-rust/",
+        "https://lobste.rs/s/.../ladybird_adopts_rust_help_from_ai"
+      ],
+      "suggested_platforms": [
+        "medium",
+        "dev.to",
+        "lobste.rs"
+      ],
+      "status": "drafted",
+      "added_at": "2026-02-24T03:14:52.468Z",
+      "scanned_by": "trend-scanner",
+      "writing_started": "2026-02-24T17:01:40.679Z",
+      "draft_file": "/mnt/bounty/Claude/pi-agents/content/article-writer/output/2026-02-25-how-openai-and-persona-built-an-identity-surveillance-machin.md",
+      "drafted_at": "2026-02-25T05:05:15.704Z"
+    },
+    {
+      "title": "Firefox 148's setHTML: How Mozilla Finally Killed innerHTML XSS",
+      "category": "cybersecurity",
+      "angle": "Technical deep-dive into the new Sanitizer API and why setHTML makes XSS nearly impossible, with migration guide for developers",
+      "key_points": [
+        "innerHTML has been the #1 XSS vector for 20+ years",
+        "setHTML with built-in sanitization prevents DOM-based XSS by default",
+        "Migration path: what breaks and what doesn't when switching from innerHTML",
+        "How the Sanitizer API compares to DOMPurify and other libraries"
+      ],
+      "trending_score": 10,
+      "monetization_potential": 8,
+      "competition": 3,
+      "combined_score": 8.4,
+      "source_urls": [
+        "https://hacks.mozilla.org/2026/02/goodbye-innerhtml-hello-sethtml-stronger-xss-protection-in-firefox-148/",
+        "https://lobste.rs/s/xxx",
+        "https://old.reddit.com/r/netsec/comments/xxx",
+        "https://news.ycombinator.com/item?id=47140042"
+      ],
+      "suggested_platforms": [
+        "devto",
+        "medium"
+      ],
+      "status": "drafted",
+      "added_at": "2026-02-25T01:03:22.419Z",
+      "scanned_by": "trend-scanner",
+      "writing_started": "2026-02-25T01:04:09.094Z",
+      "draft_file": "/mnt/bounty/Claude/pi-agents/content/article-writer/output/2026-02-25-roguepilot-how-your-ai-coding-assistant-can-be-hijacked-thro.md",
+      "drafted_at": "2026-02-25T05:31:31.531Z"
+    },
+    {
+      "title": "RoguePilot: The GitHub Codespaces Flaw That Exposed Your GITHUB_TOKEN",
+      "category": "cybersecurity",
+      "angle": "How a vulnerability in Copilot integration allowed token theft and what it means for cloud-based development security",
+      "key_points": [
+        "RoguePilot vulnerability allowed Copilot to leak GITHUB_TOKEN",
+        "Attack chain: how malicious repos could exfiltrate tokens",
+        "Implications for GitHub Codespaces and cloud dev environments",
+        "Mitigation strategies for teams using Copilot in cloud IDEs"
+      ],
+      "trending_score": 9,
+      "monetization_potential": 7,
+      "competition": 2,
+      "combined_score": 7.6,
+      "source_urls": [
+        "https://thehackernews.com/2026/02/roguepilot-flaw-in-github-codespaces.html"
+      ],
+      "suggested_platforms": [
+        "medium",
+        "hashnode"
+      ],
+      "status": "pending",
+      "added_at": "2026-02-25T01:03:22.419Z",
+      "scanned_by": "trend-scanner"
+    },
+    {
+      "title": "The Discord-Persona Scandal: When Identity Verification Becomes Surveillance",
+      "category": "privacy-opsec",
+      "angle": "Technical analysis of how Persona's verification system created a government surveillance pipeline and what it means for platform identity",
+      "key_points": [
+        "Discord cuts ties with Peter Thiel-backed Persona after surveillance links exposed",
+        "How identity verification systems can become surveillance infrastructure",
+        "The vmfunc.re investigation that broke the story",
+        "Lessons for platforms: vetting identity vendors before integration"
+      ],
+      "trending_score": 9,
+      "monetization_potential": 6,
+      "competition": 2,
+      "combined_score": 6.8,
+      "source_urls": [
+        "https://vmfunc.re/blog/persona/",
+        "https://old.reddit.com/r/cybersecurity/comments/xxx",
+        "https://news.ycombinator.com/item?id=47140632"
+      ],
+      "suggested_platforms": [
+        "medium",
+        "substack"
+      ],
+      "status": "pending",
+      "added_at": "2026-02-25T01:03:22.419Z",
+      "scanned_by": "trend-scanner"
+    },
+    {
+      "title": "From APT to Ransomware: How Lazarus Group Evolved into Medusa Operators",
+      "category": "cybersecurity",
+      "angle": "Attribution analysis connecting North Korea's Lazarus Group to Medusa ransomware attacks on healthcare and Middle East targets",
+      "key_points": [
+        "Lazarus Group linked to Medusa ransomware attacks",
+        "Shift from state-sponsored espionage to ransomware for revenue",
+        "Targeting patterns: healthcare in US, entities in Middle East",
+        "Indicators of compromise and attribution markers"
+      ],
+      "trending_score": 8,
+      "monetization_potential": 7,
+      "competition": 4,
+      "combined_score": 6.6,
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/north-korean-lazarus-group-linked-to-medusa-ransomware-attacks/",
+        "https://thehackernews.com/2026/02/lazarus-group-uses-medusa-ransomware-in.html"
+      ],
+      "suggested_platforms": [
+        "medium",
+        "linkedin"
+      ],
+      "status": "pending",
+      "added_at": "2026-02-25T01:03:22.419Z",
+      "scanned_by": "trend-scanner"
+    },
+    {
+      "title": "The Robot Vacuum Botnet: When IoT Security Is Literally a Joke",
+      "category": "devops-cloud",
+      "angle": "How one man accidentally gained control of 7,000 robot vacuums and what it reveals about IoT device security",
+      "key_points": [
+        "Security flaw allowed unauthorized control of robot vacuums",
+        "7,000+ devices compromised via cloud API vulnerability",
+        "IoT security lessons: cloud-dependent devices are attack vectors",
+        "Consumer protection gap in smart home security"
+      ],
+      "trending_score": 7,
+      "monetization_potential": 6,
+      "competition": 3,
+      "combined_score": 5.8,
+      "source_urls": [
+        "https://www.cnbctv18.com/technology/security-flaw-allows-man-to-accidentally-gain-control-of-nearly-7000-robot-vacuums-ws-l-19856941.htm/amp",
+        "https://old.reddit.com/r/cybersecurity/comments/xxx"
+      ],
+      "suggested_platforms": [
+        "devto",
+        "medium"
+      ],
+      "status": "pending",
+      "added_at": "2026-02-25T01:03:22.419Z",
+      "scanned_by": "trend-scanner"
+    },
+    {
+      "title": "How OpenAI and Persona Built an Identity Surveillance Machine for the US Government",
+      "category": "privacy-opsec",
+      "angle": "Deep technical analysis of how AI identity verification infrastructure enables government surveillance, with focus on Discord cutting ties after code tied to US surveillance efforts",
+      "key_points": [
+        "Persona verification code architecture and data flows",
+        "Discord integration revealed surveillance connections",
+        "Implications for AI-powered identity systems",
+        "What developers should know about ID verification APIs"
+      ],
+      "trending_score": 9,
+      "monetization_potential": 8,
+      "competition": 3,
+      "combined_score": 8.2,
+      "source_urls": [
+        "https://vmfunc.re/blog/persona/",
+        "https://www.yahoo.com/news/articles/discord-cuts-ties-peter-thiel-080200136.html",
+        "https://old.reddit.com/r/cybersecurity/comments/1rdxrba/nobody_breached_discord_the_integrations_just/"
+      ],
+      "suggested_platforms": [
+        "substack",
+        "medium"
+      ],
+      "status": "drafted",
+      "added_at": "2026-02-25T05:02:48.217Z",
+      "scanned_by": "trend-scanner",
+      "writing_started": "2026-02-25T05:04:06.555Z",
+      "draft_file": "/mnt/bounty/Claude/pi-agents/content/article-writer/output/2026-02-25-firefox-148-s-sethtml-the-death-of-innerhtml-and-xss-protect.md",
+      "drafted_at": "2026-02-25T09:07:00.246Z"
+    },
+    {
+      "title": "RoguePilot: How Your AI Coding Assistant Can Be Hijacked Through a GitHub Issue",
+      "category": "cybersecurity",
+      "angle": "Technical deep-dive into the RoguePilot vulnerability showing how Copilot token leakage enables supply chain attacks via malicious repository contributions",
+      "key_points": [
+        "GitHub Codespaces token exposure mechanism",
+        "How malicious repo files exfiltrate GITHUB_TOKEN",
+        "CI/CD pipeline compromise pathways",
+        "Practical mitigations for dev teams"
+      ],
+      "trending_score": 8,
+      "monetization_potential": 9,
+      "competition": 4,
+      "combined_score": 8,
+      "source_urls": [
+        "https://thehackernews.com/2026/02/roguepilot-flaw-in-github-codespaces.html",
+        "https://old.reddit.com/r/cybersecurity/comments/1rdwyp2/orca_just_dropped_roguepilot_your_ai_coding/"
+      ],
+      "suggested_platforms": [
+        "devto",
+        "medium"
+      ],
+      "status": "drafted",
+      "added_at": "2026-02-25T05:02:48.217Z",
+      "scanned_by": "trend-scanner",
+      "writing_started": "2026-02-25T05:30:08.616Z",
+      "draft_file": "/mnt/bounty/Claude/pi-agents/content/article-writer/output/2026-02-25-ai-agent-threat-intelligence-why-tool-chain-escalation-just-.md",
+      "drafted_at": "2026-02-25T11:32:11.234Z"
+    },
+    {
+      "title": "Firefox 148's setHTML: The Death of innerHTML and XSS Protection That Actually Works",
+      "category": "cybersecurity",
+      "angle": "Practical guide for developers migrating from innerHTML to setHTML, with real-world XSS bypass scenarios that the new API prevents",
+      "key_points": [
+        "Why innerHTML has been the #1 XSS vector for 20 years",
+        "setHTML sanitization architecture",
+        "Migration patterns for existing codebases",
+        "Performance and compatibility considerations"
+      ],
+      "trending_score": 8,
+      "monetization_potential": 7,
+      "competition": 3,
+      "combined_score": 7.8,
+      "source_urls": [
+        "https://hacks.mozilla.org/2026/02/goodbye-innerhtml-hello-sethtml-stronger-xss-protection-in-firefox-148/",
+        "https://old.reddit.com/r/netsec/comments/1rdbp6l/goodbye_innerhtml_hello_sethtml_stronger_xss/"
+      ],
+      "suggested_platforms": [
+        "devto",
+        "medium"
+      ],
+      "status": "drafted",
+      "added_at": "2026-02-25T05:02:48.217Z",
+      "scanned_by": "trend-scanner",
+      "writing_started": "2026-02-25T09:04:11.212Z",
+      "draft_file": "/mnt/bounty/Claude/pi-agents/content/article-writer/output/2026-02-25-roguepilot-how-github-codespaces-leaked-github-token-to-copi.md",
+      "drafted_at": "2026-02-25T13:05:35.148Z"
+    },
+    {
+      "title": "Lazarus Group's Pivot to Medusa Ransomware: What the Latest Attribution Means for Defenders",
+      "category": "cybersecurity",
+      "angle": "Strategic intelligence analysis connecting Lazarus Group's state-sponsored APT tactics to their new ransomware operations targeting healthcare and critical infrastructure",
+      "key_points": [
+        " Attribution evidence linking Lazarus to Medusa",
+        "TTP overlap analysis",
+        "Healthcare sector targeting patterns",
+        "Nation-state ransomware hybrid threats"
+      ],
+      "trending_score": 7,
+      "monetization_potential": 8,
+      "competition": 5,
+      "combined_score": 7,
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/north-korean-lazarus-group-linked-to-medusa-ransomware-attacks/",
+        "https://thehackernews.com/2026/02/lazarus-group-uses-medusa-ransomware-in.html"
+      ],
+      "suggested_platforms": [
+        "medium",
+        "linkedin"
+      ],
+      "status": "pending",
+      "added_at": "2026-02-25T05:02:48.217Z",
+      "scanned_by": "trend-scanner"
+    },
+    {
+      "title": "AI Agent Threat Intelligence: Why Tool Chain Escalation Just Became Your #1 Security Risk",
+      "category": "ai-tech",
+      "angle": "Emerging threat analysis based on real production data showing how AI agents are being attacked through tool permissions and privilege escalation",
+      "key_points": [
+        "91K production agent interactions analyzed",
+        "Tool chain escalation vs instruction override attacks",
+        "26.4% of agent-targeting attacks use privilege escalation",
+        "Securing AI agent tool permissions"
+      ],
+      "trending_score": 7,
+      "monetization_potential": 9,
+      "competition": 2,
+      "combined_score": 7.8,
+      "source_urls": [
+        "https://raxe.ai/labs/threat-intelligence/latest",
+        "https://old.reddit.com/r/cybersecurity/comments/1rdcbqb/claude_code_security_and_the_cybersecurity_is/"
+      ],
+      "suggested_platforms": [
+        "substack",
+        "medium"
+      ],
+      "status": "drafted",
+      "added_at": "2026-02-25T05:02:48.217Z",
+      "scanned_by": "trend-scanner",
+      "writing_started": "2026-02-25T11:30:12.222Z",
+      "draft_file": "/mnt/bounty/Claude/pi-agents/content/article-writer/output/2026-02-26-google-api-keys-weren-t-secrets-until-gemini-broke-everythin.md",
+      "drafted_at": "2026-02-26T17:31:21.481Z"
+    },
+    {
+      "title": "Anthropic's Safety Pivot: What It Means for AI Governance",
+      "category": "ai-tech",
+      "angle": "Analyze the implications of Anthropic dropping its responsible scaling policy and what this signals for the broader AI industry",
+      "key_points": [
+        "Anthropic removed its responsible scaling policy that required safety evaluations",
+        "Compare safety commitments across OpenAI, Google, Meta, and Anthropic",
+        "Impact on enterprise adoption and regulatory oversight",
+        "The tension between competitive pressure and safety guardrails"
+      ],
+      "trending_score": 9,
+      "monetization_potential": 8,
+      "competition": 5,
+      "combined_score": 7.8,
+      "source_urls": [
+        "https://time.com/7380854/exclusive-anthropic-drops-flagship-safety-pledge/",
+        "https://news.ycombinator.com/item?id=47145963",
+        "https://thehackernews.com/2026/02/anthropic-says-chinese-ai-firms-used-16.html"
+      ],
+      "suggested_platforms": [
+        "medium",
+        "substack"
+      ],
+      "status": "pending",
+      "added_at": "2026-02-25T13:03:08.626Z",
+      "scanned_by": "trend-scanner"
+    },
+    {
+      "title": "CISA KEV Alert: FileZen CVE-2026-25108 Being Actively Exploited",
+      "category": "cybersecurity",
+      "angle": "Technical deep-dive into the OS command injection vulnerability in FileZen and exploitation in the wild",
+      "key_points": [
+        "CVE-2026-25108 allows unauthenticated OS command injection",
+        "Attack vectors and exploitation techniques being used",
+        "Detection rules and IOCs for security teams",
+        "Patch management strategies for enterprise file sharing solutions"
+      ],
+      "trending_score": 9,
+      "monetization_potential": 7,
+      "competition": 4,
+      "combined_score": 8,
+      "source_urls": [
+        "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+        "https://thehackernews.com/2026/02/cisa-confirms-active-exploitation-of.html"
+      ],
+      "suggested_platforms": [
+        "medium",
+        "devto"
+      ],
+      "status": "pending",
+      "added_at": "2026-02-25T13:03:08.626Z",
+      "scanned_by": "trend-scanner"
+    },
+    {
+      "title": "RoguePilot: How GitHub Codespaces Leaked GITHUB_TOKEN to Copilot",
+      "category": "devops-cloud",
+      "angle": "Examine the security flaw that allowed Copilot to expose GitHub tokens and what developers need to know",
+      "key_points": [
+        "Technical breakdown of the RoguePilot vulnerability",
+        "How the Codespaces-Copilot integration created the exposure",
+        "Best practices for securing cloud development environments",
+        "Lessons for CI/CD pipeline security"
+      ],
+      "trending_score": 8,
+      "monetization_potential": 8,
+      "competition": 3,
+      "combined_score": 8.2,
+      "source_urls": [
+        "https://thehackernews.com/2026/02/roguepilot-flaw-in-github-codespaces.html",
+        "https://code.claude.com/docs/en/remote-control"
+      ],
+      "suggested_platforms": [
+        "medium",
+        "devto"
+      ],
+      "status": "writing",
+      "added_at": "2026-02-25T13:03:08.626Z",
+      "scanned_by": "trend-scanner",
+      "writing_started": "2026-02-25T13:04:05.531Z"
+    },
+    {
+      "title": "Running 1 Billion Parameter LLMs on a $10 Raspberry Pi Pico",
+      "category": "ai-tech",
+      "angle": "Practical guide to running quantized LLMs on resource-constrained embedded devices",
+      "key_points": [
+        "Picolm project enables LLM inference on 256MB RAM",
+        "Quantization techniques for edge deployment",
+        "Use cases for offline AI on cheap hardware",
+        "Comparison with Ollama and other edge AI solutions"
+      ],
+      "trending_score": 8,
+      "monetization_potential": 7,
+      "competition": 4,
+      "combined_score": 7.6,
+      "source_urls": [
+        "https://github.com/RightNow-AI/picolm",
+        "https://github.com/ochyai/vibe-local"
+      ],
+      "suggested_platforms": [
+        "medium",
+        "devto"
+      ],
+      "status": "pending",
+      "added_at": "2026-02-25T13:03:08.626Z",
+      "scanned_by": "trend-scanner"
+    },
+    {
+      "title": "The Kimwolf Botnet: Anatomy of a Modern I2P-Targeted Threat",
+      "category": "bug-bounty",
+      "angle": "Profile the Kimwolf botnet operators and techniques for detecting similar threats in your infrastructure",
+      "key_points": [
+        "How Kimwolf targets I2P anonymity networks",
+        "Botnet architecture and command infrastructure",
+        "Detection strategies for corporate networks",
+        "Attribution analysis and threat actor TTPs"
+      ],
+      "trending_score": 8,
+      "monetization_potential": 6,
+      "competition": 3,
+      "combined_score": 7.4,
+      "source_urls": [
+        "https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/",
+        "https://krebsonsecurity.com/2026/01/kimwolf-botnet-lurking-in-corporate-govt-networks/"
+      ],
+      "suggested_platforms": [
+        "medium",
+        "substack"
+      ],
+      "status": "pending",
+      "added_at": "2026-02-25T13:03:08.626Z",
+      "scanned_by": "trend-scanner"
+    },
+    {
+      "title": "Starkiller Phishing: How MFA-Bypass Reverse Proxies Became a Service",
+      "category": "cybersecurity",
+      "angle": "Technical deep-dive into the Starkiller phishing-as-a-service platform that proxies real login pages to defeat 2FA/MFA, analyzing the commoditization of advanced phishing techniques",
+      "key_points": [
+        "Starkiller uses real-time proxying of legitimate login pages",
+        "Bypasses SMS, app-based, and hardware key MFA",
+        "Sold as phishing-as-a-service on cybercrime forums",
+        "Targets Microsoft 365, VPNs, and banking portals",
+        "Detection requires behavioral analysis not static indicators"
+      ],
+      "trending_score": 9,
+      "monetization_potential": 8,
+      "competition": 3,
+      "combined_score": 8.4,
+      "source_urls": [
+        "https://krebsonsecurity.com/2026/02/starkiller-phishing-service-proxies-real-login-pages-mfa/"
+      ],
+      "suggested_platforms": [
+        "medium",
+        "devto"
+      ],
+      "status": "writing",
+      "added_at": "2026-02-25T17:03:48.463Z",
+      "scanned_by": "trend-scanner",
+      "writing_started": "2026-02-25T17:31:05.093Z"
+    },
+    {
+      "title": "From Vibe Coding to Remote Control: The AI Development Stack Shift",
+      "category": "ai-tech",
+      "angle": "Explore how Claude Code's remote control feature, vibecoding tools, and AI-first development environments are changing where and how developers write code",
+      "key_points": [
+        "Claude Code Remote Control enables browser-based AI coding",
+        "Vibecoding trend: AI writes code while humans review",
+        "Pi terminal coding harness gaining traction",
+        "Shift from local IDEs to cloud-native AI development",
+        "Security implications of remote AI coding environments"
+      ],
+      "trending_score": 10,
+      "monetization_potential": 9,
+      "competition": 4,
+      "combined_score": 9,
+      "source_urls": [
+        "https://code.claude.com/docs/en/remote-control",
+        "https://github.com/Leonxlnx/taste-skill",
+        "https://pi.dev",
+        "https://lobste.rs/s/9p9v3q/charm_v2_major_releases_bubble_tea_lip_gloss"
+      ],
+      "suggested_platforms": [
+        "medium",
+        "devto",
+        "hashnode"
+      ],
+      "status": "writing",
+      "added_at": "2026-02-25T17:03:48.463Z",
+      "scanned_by": "trend-scanner",
+      "writing_started": "2026-02-25T17:04:11.273Z"
+    },
+    {
+      "title": "Cloudflare Rebuilt Next.js in a Week With AI: What Vinext Means for Web Development",
+      "category": "devops-cloud",
+      "angle": "Analysis of Cloudflare's Vinext project - using AI to reimplement the Next.js API surface as a Vite plugin, and what this signals about framework portability and AI-assisted framework development",
+      "key_points": [
+        "Vinext reimplements Next.js API as Vite plugin",
+        "Built in one week using AI agents",
+        "Deploy anywhere including Cloudflare Workers",
+        "Signals shift from framework-locked to portable architectures",
+        "AI agents now capable of framework-level engineering"
+      ],
+      "trending_score": 8,
+      "monetization_potential": 7,
+      "competition": 2,
+      "combined_score": 7.6,
+      "source_urls": [
+        "https://github.com/cloudflare/vinext",
+        "https://blog.cloudflare.com/vinext/",
+        "https://lobste.rs/s/hq2r1w/how_we_rebuilt_next_js_ai_one_week"
+      ],
+      "suggested_platforms": [
+        "medium",
+        "devto",
+        "hashnode"
+      ],
+      "status": "pending",
+      "added_at": "2026-02-25T17:03:48.463Z",
+      "scanned_by": "trend-scanner"
+    },
+    {
+      "title": "The Kimwolf Botnet: When Anonymity Networks Become the Target",
+      "category": "privacy-opsec",
+      "angle": "Investigation into Kimwolf botnet's unique strategy of swamping I2P anonymity networks and lurking in corporate environments - a threat to privacy infrastructure itself",
+      "key_points": [
+        "Kimwolf specifically targets I2P anonymity network",
+        "Overwhelms I2P nodes to degrade privacy protections",
+        "Lurks undetected in corporate and government networks",
+        "Represents shift from using anonymization to attacking it",
+        "Raises questions about I2P's resilience to botnet abuse"
+      ],
+      "trending_score": 8,
+      "monetization_potential": 6,
+      "competition": 2,
+      "combined_score": 7,
+      "source_urls": [
+        "https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/",
+        "https://krebsonsecurity.com/2026/01/kimwolf-botnet-lurking-in-corporate-govt-networks/"
+      ],
+      "suggested_platforms": [
+        "medium"
+      ],
+      "status": "pending",
+      "added_at": "2026-02-25T17:03:48.463Z",
+      "scanned_by": "trend-scanner"
+    },
+    {
+      "title": "Zero-Day Exploit Brokers: US Sanctions and the Shadow Economy",
+      "category": "bug-bounty",
+      "angle": "Connecting the dots between US sanctions on Russian exploit brokers, the L3Harris exec conviction, and what this means for legitimate security research and bug bounty programs",
+      "key_points": [
+        "US sanctioned Russian exploit broker for buying zero-days",
+        "L3Harris defense contractor exec sentenced for selling 8 zero-days",
+        "$500K+ payouts for zero-day exploits on underground markets",
+        "CISA adding actively exploited vulns to KEV rapidly",
+        "Tension between national security and security research disclosure"
+      ],
+      "trending_score": 9,
+      "monetization_potential": 7,
+      "competition": 5,
+      "combined_score": 7.8,
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/us-sanctions-russian-exploit-broker-for-buying-stolen-zero-days/",
+        "https://thehackernews.com/2026/02/defense-contractor-employee-jailed-for.html",
+        "https://www.bleepingcomputer.com/news/security/ex-l3harris-exec-jailed-for-selling-zero-days-to-russian-exploit-broker/"
+      ],
+      "suggested_platforms": [
+        "medium",
+        "devto"
+      ],
+      "status": "pending",
+      "added_at": "2026-02-25T17:03:48.463Z",
+      "scanned_by": "trend-scanner"
+    },
+    {
+      "title": "Critical Cisco SD-WAN Vulnerabilities Under Active Exploitation: What You Need to Know",
+      "category": "cybersecurity",
+      "angle": "Deep dive into the 3-year zero-day exploitation of Cisco SD-WAN and why enterprise networks are still vulnerable",
+      "key_points": [
+        "CVE-2026-20127 (auth bypass) and CVE-2022-20775 (path traversal) actively exploited since 2023",
+        "Cisco SD-WAN widely deployed in enterprise and government networks",
+        "Attackers using these flaws for persistent network access",
+        "Remediation challenges for large SD-WAN deployments",
+        "Detection strategies and IOCs for security teams"
+      ],
+      "virality_score": 9,
+      "recency": 10,
+      "trending_score": 10,
+      "monetization_potential": 8,
+      "competition": 4,
+      "combined_score": 8.6,
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
+        "https://thehackernews.com/2026/02/cisa-confirms-active-exploitation-of.html"
+      ],
+      "suggested_platforms": [
+        "medium",
+        "devto",
+        "linkedin"
+      ],
+      "status": "pending",
+      "added_at": "2026-02-25T21:02:02.797Z",
+      "scanned_by": "trend-scanner"
+    },
+    {
+      "title": "When AI Recommends Nuclear Strikes: Lessons from War Game Simulations",
+      "category": "ai-tech",
+      "angle": "Analysis of why AI systems consistently escalate to nuclear options and what this means for AI safety",
+      "key_points": [
+        "Multiple LLMs recommended first-strike nuclear attacks in simulations",
+        "AI reward functions may incentivize 'winning' over stability",
+        "Training data bias toward historical conflict scenarios",
+        "Implications for autonomous military AI systems",
+        "Why human-in-the-loop remains critical for high-stakes decisions"
+      ],
+      "virality_score": 10,
+      "recency": 8,
+      "trending_score": 9,
+      "monetization_potential": 9,
+      "competition": 3,
+      "combined_score": 8.5,
+      "source_urls": [
+        "https://www.newscientist.com/article/2516885-ais-cant-stop-recommending-nuclear-strikes-in-war-game-simulations/",
+        "https://news.ycombinator.com/item?id=47151000"
+      ],
+      "suggested_platforms": [
+        "medium",
+        "substack",
+        "linkedin"
+      ],
+      "status": "pending",
+      "added_at": "2026-02-25T21:02:02.797Z",
+      "scanned_by": "trend-scanner"
+    },
+    {
+      "title": "Fake Job Interviews: The New Attack Vector Targeting Developers",
+      "category": "cybersecurity",
+      "angle": "Inside the social engineering campaign using fake technical interviews to install backdoors on developer machines",
+      "key_points": [
+        "Attackers posing as recruiters conducting technical interviews",
+        "Victims asked to run 'test code' that installs backdoors",
+        "Targeting developers with access to production systems",
+        "Why traditional security awareness training misses this vector",
+        "How to verify legitimate recruiting outreach"
+      ],
+      "virality_score": 9,
+      "recency": 9,
+      "trending_score": 9,
+      "monetization_potential": 8,
+      "competition": 3,
+      "combined_score": 8.3,
+      "source_urls": [
+        "https://threatroad.substack.com/p/fake-job-interviews-are-installing",
+        "https://old.reddit.com/r/cybersecurity/comments/fake-job-interviews",
+        "https://old.reddit.com/r/programming/comments/fake-job-interviews"
+      ],
+      "suggested_platforms": [
+        "devto",
+        "medium",
+        "hashnode"
+      ],
+      "status": "pending",
+      "added_at": "2026-02-25T21:02:02.797Z",
+      "scanned_by": "trend-scanner"
+    },
+    {
+      "title": "Denmark's Digital Sovereignty Play: Can Governments Actually Ditch Microsoft?",
+      "category": "privacy-opsec",
+      "angle": "Analysis of Denmark's plan to end dependence on Microsoft and the broader implications for data sovereignty movements",
+      "key_points": [
+        "Danish Digital Agency plans to replace Microsoft products entirely",
+        "Motivated by sovereignty and data localization concerns",
+        "Technical challenges of migrating government systems",
+        "Cost-benefit analysis: independence vs. vendor lock-in",
+        "Will other EU nations follow Denmark's lead?"
+      ],
+      "virality_score": 9,
+      "recency": 9,
+      "trending_score": 8,
+      "monetization_potential": 7,
+      "competition": 4,
+      "combined_score": 8,
+      "source_urls": [
+        "https://therecord.media/denmark-digital-agency-microsoft-digital-independence",
+        "https://news.ycombinator.com/item?id=47149701"
+      ],
+      "suggested_platforms": [
+        "medium",
+        "substack",
+        "linkedin"
+      ],
+      "status": "pending",
+      "added_at": "2026-02-25T21:02:02.797Z",
+      "scanned_by": "trend-scanner"
+    },
+    {
+      "title": "Starkiller Phishing: How Attackers Now Proxy Real Login Pages with Real MFA",
+      "category": "cybersecurity",
+      "angle": "Technical breakdown of the Starkiller phishing-as-a-service that defeats traditional detection methods",
+      "key_points": [
+        "Starkiller Phishing Service uses reverse proxy to capture real login pages",
+        "Captures and relays MFA codes in real-time",
+        "Defeats traditional anti-phishing training indicators",
+        "Targets Microsoft 365 and other enterprise SSO providers",
+        "Detection strategies: behavioral analysis and FIDO2/WebAuthn adoption"
+      ],
+      "virality_score": 8,
+      "recency": 9,
+      "trending_score": 8,
+      "monetization_potential": 8,
+      "competition": 5,
+      "combined_score": 7.9,
+      "source_urls": [
+        "https://krebsonsecurity.com/2026/02/starkiller-phishing-service-proxies-real-login-pages-mfa/"
+      ],
+      "suggested_platforms": [
+        "medium",
+        "devto",
+        "linkedin"
+      ],
+      "status": "pending",
+      "added_at": "2026-02-25T21:02:02.797Z",
+      "scanned_by": "trend-scanner"
+    },
+    {
+      "title": "Google API Keys Weren't Secrets—Until Gemini Broke Everything",
+      "category": "cybersecurity",
+      "angle": "Deep dive into how Google's Gemini AI inadvertently exposed a fundamental cloud security assumption—demonstrating API key misconfigurations, practical attack paths, and how organizations can protect themselves from the fallout of this paradigm shift.",
+      "key_points": [
+        "Technical breakdown of how Gemini changed API security assumptions",
+        "Real-world impact and attack vectors exposed",
+        "Practical remediation steps for Google Cloud users",
+        "Comparison with other cloud providers' API key handling"
+      ],
+      "trending_score": 10,
+      "monetization_potential": 9,
+      "competition": 6,
+      "combined_score": 8.9,
+      "source_urls": [
+        "https://trufflesecurity.com/blog/google-api-keys-werent-secrets-but-then-gemini-changed-the-rules",
+        "https://news.ycombinator.com/item?id=47156925",
+        "https://old.reddit.com/r/netsec/comments/1qx4w8t/google_api_keys_werent_secrets_but_then_gemini/"
+      ],
+      "suggested_platforms": [
+        "medium",
+        "devto"
+      ],
+      "status": "writing",
+      "added_at": "2026-02-26T17:00:47.219Z",
+      "scanned_by": "trend-scanner",
+      "writing_started": "2026-02-26T17:30:11.363Z"
+    },
+    {
+      "title": "Fake Next.js Job Interviews: How Malicious Repos Backdoor Developer Machines",
+      "category": "cybersecurity",
+      "angle": "Targeted attack breakdown—how threat actors weaponize the job interview process, the technical analysis of the in-memory malware, and defensive strategies for developers and hiring organizations.",
+      "key_points": [
+        "Walkthrough of the malicious Next.js test repository technique",
+        "In-memory malware analysis and persistence mechanisms",
+        "Red flags to identify suspicious job interview code tests",
+        "Developer security checklist for handling external code"
+      ],
+      "trending_score": 9,
+      "monetization_potential": 8,
+      "competition": 5,
+      "combined_score": 8.7,
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/fake-nextjs-job-interview-tests-backdoor-developers-devices/",
+        "https://thehackernews.com/2026/02/fake-nextjs-repos-target-developers.html",
+        "https://old.reddit.com/r/programming/comments/1qv3f8s/fake_job_interviews_are_installing_backdoors/"
+      ],
+      "suggested_platforms": [
+        "medium",
+        "devto"
+      ],
+      "status": "pending",
+      "added_at": "2026-02-26T17:00:47.219Z",
+      "scanned_by": "trend-scanner"
+    },
+    {
+      "title": "Cisco SD-WAN Zero-Day CVE-2026-20127: Exploited Since 2023, Now Public",
+      "category": "cybersecurity",
+      "angle": "Enterprise threat analysis—the timeline of a long-running zero-day campaign, the technical vulnerability breakdown, and urgent mitigation guidance for global organizations using Cisco SD-WAN infrastructure.",
+      "key_points": [
+        "Technical details of CVE-2026-20127 authentication bypass",
+        "Attack timeline and victimization patterns (since 2023)",
+        "Immediate patch and mitigation checklist",
+        "Broader analysis of SD-WAN security posture"
+      ],
+      "trending_score": 9,
+      "monetization_potential": 8,
+      "competition": 4,
+      "combined_score": 8.6,
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
+        "https://thehackernews.com/2026/02/cisco-sd-wan-zero-day-cve-2026-20127.html",
+        "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+        "https://old.reddit.com/r/cybersecurity/comments/1qxc0d4/cisco_says_hackers_have_been_exploiting_a/"
+      ],
+      "suggested_platforms": [
+        "medium",
+        "devto"
+      ],
+      "status": "pending",
+      "added_at": "2026-02-26T17:00:47.219Z",
+      "scanned_by": "trend-scanner"
+    },
+    {
+      "title": "Your Anonymous Posting Isn't: Large-Scale LLM Deanonymization Explained",
+      "category": "privacy-opsec",
+      "angle": "Technical deep dive into how LLMs can de-anonymize users from seemingly harmless online posts—real-world research findings, the privacy implications, and practical countermeasures for individuals seeking anonymity.",
+      "key_points": [
+        "Understanding the LLM deanonymization methodology",
+        "Real-world case studies and success rates",
+        "What types of data are most vulnerable",
+        "Privacy-preserving posting guidelines and tools"
+      ],
+      "trending_score": 8,
+      "monetization_potential": 8,
+      "competition": 5,
+      "combined_score": 8.2,
+      "source_urls": [
+        "https://simonlermen.substack.com/p/large-scale-online-deanonymization",
+        "https://news.ycombinator.com/item?id=47139716",
+        "https://old.reddit.com/r/netsec/comments/1qw8a1o/largescale_online_deanonymization_with_llms/"
+      ],
+      "suggested_platforms": [
+        "medium",
+        "devto"
+      ],
+      "status": "pending",
+      "added_at": "2026-02-26T17:00:47.219Z",
+      "scanned_by": "trend-scanner"
+    },
+    {
+      "title": "Anthropic Ditches Core Safety Promise: The Pentagon Deal and What It Means",
+      "category": "ai-tech",
+      "angle": "Breaking analysis of Anthropic's policy shift—examining the pressure from military contracts, the implications for AI safety commitments, and what this signals for the broader AI industry's relationship with defense spending.",
+      "key_points": [
+        "Timeline of Anthropic's safety policy changes",
+        "Pentagon contract details and timeline pressure",
+        "Industry reactions and competitor comparison",
+        "What users and developers should expect going forward"
+      ],
+      "trending_score": 8,
+      "monetization_potential": 7,
+      "competition": 3,
+      "combined_score": 7.9,
+      "source_urls": [
+        "https://www.cnn.com/2026/02/25/tech/anthropic-safety-policy-change",
+        "https://www Axios.com/2026/02/24/anthropic-pentagon-claude-hegseth-dario",
+        "https://news.ycombinator.com/item?id=47165397",
+        "https://old.reddit.com/r/cybersecurity/comments/1qx6k5n/hegseth_gave_anthropic_until_friday_to_give_the/"
+      ],
+      "suggested_platforms": [
+        "medium",
+        "substack"
+      ],
+      "status": "pending",
+      "added_at": "2026-02-26T17:00:47.219Z",
+      "scanned_by": "trend-scanner"
+    }
+  ]
+}

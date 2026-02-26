@@ -1,0 +1,17 @@
+{
+  "techniques": [],
+  "last_updated": "2026-02-23T00:00:00.000Z",
+  "total": 0,
+  "categories": {
+    "XSS": 0,
+    "SQLi": 0,
+    "SSRF": 0,
+    "IDOR": 0,
+    "RCE": 0,
+    "LFI": 0,
+    "Auth": 0,
+    "Crypto": 0,
+    "Logic": 0,
+    "Other": 0
+  }
+}

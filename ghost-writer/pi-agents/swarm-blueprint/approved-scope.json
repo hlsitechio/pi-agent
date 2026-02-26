@@ -1,0 +1,10 @@
+{
+  "_comment": "SCOPE LOCK — Only Commander (rainkode) modifies this file",
+  "_updated": "2026-02-24T00:00:00Z",
+  "_updated_by": "rainkode",
+  "domains": [],
+  "wildcards": [],
+  "ips": [],
+  "excluded": [],
+  "notes": "Empty scope = no active targets. Add targets here before dispatching hunting agents."
+}

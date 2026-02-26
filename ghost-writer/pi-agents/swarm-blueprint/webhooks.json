@@ -1,0 +1,188 @@
+{
+  "cmd-center": {
+    "channel_id": "1475694582313390246",
+    "webhook_id": "1476046076493692988",
+    "webhook_url": "REPLACE_WITH_WEBHOOK_URL"
+  },
+  "orchestrator": {
+    "channel_id": "1475640678426873926",
+    "webhook_id": "1476046078355968081",
+    "webhook_url": "REPLACE_WITH_WEBHOOK_URL"
+  },
+  "briefing": {
+    "channel_id": "1475640681463545856",
+    "webhook_id": "1476046079760928809",
+    "webhook_url": "REPLACE_WITH_WEBHOOK_URL"
+  },
+  "cve-alerts": {
+    "channel_id": "1476045881798037586",
+    "webhook_id": "1476046080738197635",
+    "webhook_url": "REPLACE_WITH_WEBHOOK_URL"
+  },
+  "threat-intel": {
+    "channel_id": "1475640691878007005",
+    "webhook_id": "1476046081870790737",
+    "webhook_url": "REPLACE_WITH_WEBHOOK_URL"
+  },
+  "hackernews": {
+    "channel_id": "1475640686786379859",
+    "webhook_id": "1476046083372355816",
+    "webhook_url": "REPLACE_WITH_WEBHOOK_URL"
+  },
+  "exploit-db": {
+    "channel_id": "1475640693081767977",
+    "webhook_id": "1476046084580053087",
+    "webhook_url": "REPLACE_WITH_WEBHOOK_URL"
+  },
+  "news": {
+    "channel_id": "1476045882846613524",
+    "webhook_id": "1476046086509690992",
+    "webhook_url": "REPLACE_WITH_WEBHOOK_URL"
+  },
+  "agent-status": {
+    "channel_id": "1475640730910330961",
+    "webhook_id": "1476046088120176884",
+    "webhook_url": "REPLACE_WITH_WEBHOOK_URL"
+  },
+  "agent-errors": {
+    "channel_id": "1475640738510409781",
+    "webhook_id": "1476046089441513522",
+    "webhook_url": "REPLACE_WITH_WEBHOOK_URL"
+  },
+  "agent-ops": {
+    "channel_id": "1476045883937390613",
+    "webhook_id": "1476046209465581662",
+    "webhook_url": "REPLACE_WITH_WEBHOOK_URL"
+  },
+  "incidents": {
+    "channel_id": "1475694585505255567",
+    "webhook_id": "1476046211176861776",
+    "webhook_url": "REPLACE_WITH_WEBHOOK_URL"
+  },
+  "services": {
+    "channel_id": "1476045885388357674",
+    "webhook_id": "1476046213135732756",
+    "webhook_url": "REPLACE_WITH_WEBHOOK_URL"
+  },
+  "opsec": {
+    "channel_id": "1476045886269165691",
+    "webhook_id": "1476046215077695631",
+    "webhook_url": "REPLACE_WITH_WEBHOOK_URL"
+  },
+  "honeypot": {
+    "channel_id": "1476045887682904157",
+    "webhook_id": "1476046215962427423",
+    "webhook_url": "REPLACE_WITH_WEBHOOK_URL"
+  },
+  "recon-results": {
+    "channel_id": "1475640698844741787",
+    "webhook_id": "1476046217485221958",
+    "webhook_url": "REPLACE_WITH_WEBHOOK_URL"
+  },
+  "scope-watch": {
+    "channel_id": "1475640702527475896",
+    "webhook_id": "1476046219078926467",
+    "webhook_url": "REPLACE_WITH_WEBHOOK_URL"
+  },
+  "recon-assets": {
+    "channel_id": "1476045889138065499",
+    "webhook_id": "1476046220441948323",
+    "webhook_url": "REPLACE_WITH_WEBHOOK_URL"
+  },
+  "findings": {
+    "channel_id": "1475640711406682113",
+    "webhook_id": "1476046223390806113",
+    "webhook_url": "REPLACE_WITH_WEBHOOK_URL"
+  },
+  "exploits": {
+    "channel_id": "1475640712837202071",
+    "webhook_id": "1476046225571840151",
+    "webhook_url": "REPLACE_WITH_WEBHOOK_URL"
+  },
+  "reports": {
+    "channel_id": "1475640714103754783",
+    "webhook_id": "1476046268475375718",
+    "webhook_url": "REPLACE_WITH_WEBHOOK_URL"
+  },
+  "targets": {
+    "channel_id": "1475640715110518970",
+    "webhook_id": "1476046269787930797",
+    "webhook_url": "REPLACE_WITH_WEBHOOK_URL"
+  },
+  "analytics": {
+    "channel_id": "1476045897488924712",
+    "webhook_id": "1476046277178429653",
+    "webhook_url": "REPLACE_WITH_WEBHOOK_URL"
+  },
+  "status-dashboard": {
+    "channel_id": "1476301524585021465",
+    "webhook_id": "1476301551013462048",
+    "webhook_url": "REPLACE_WITH_WEBHOOK_URL"
+  },
+  "maintenance": {
+    "channel_id": "1476301526275199028",
+    "webhook_id": "1476301552615424101",
+    "webhook_url": "REPLACE_WITH_WEBHOOK_URL"
+  },
+  "_comment_ghost_writer": "Ghost Writer CrowByte OPS Server (1476576480644436151) \u2014 uses bot token posting, not webhooks",
+  "gw-pipeline-status": {
+    "channel_id": "1476579922859524187",
+    "server": "ghost-writer",
+    "post_via": "bot_token"
+  },
+  "gw-research-queue": {
+    "channel_id": "1476579923425759437",
+    "server": "ghost-writer",
+    "post_via": "bot_token"
+  },
+  "gw-fact-check": {
+    "channel_id": "1476579924419674157",
+    "server": "ghost-writer",
+    "post_via": "bot_token"
+  },
+  "gw-drafts": {
+    "channel_id": "1476579925765918873",
+    "server": "ghost-writer",
+    "post_via": "bot_token"
+  },
+  "gw-waiting-room": {
+    "channel_id": "1476579953754636289",
+    "server": "ghost-writer",
+    "post_via": "bot_token"
+  },
+  "gw-published": {
+    "channel_id": "1476579956073955370",
+    "server": "ghost-writer",
+    "post_via": "bot_token"
+  },
+  "gw-devto-links": {
+    "channel_id": "1476579957252554933",
+    "server": "ghost-writer",
+    "post_via": "bot_token"
+  },
+  "gw-config": {
+    "channel_id": "1476579958209122304",
+    "server": "ghost-writer",
+    "post_via": "bot_token"
+  },
+  "gw-cve-feed": {
+    "channel_id": "1476579989733249056",
+    "server": "ghost-writer",
+    "post_via": "bot_token"
+  },
+  "gw-hackernews": {
+    "channel_id": "1476579990882484326",
+    "server": "ghost-writer",
+    "post_via": "bot_token"
+  },
+  "gw-web-research": {
+    "channel_id": "1476579991872340060",
+    "server": "ghost-writer",
+    "post_via": "bot_token"
+  },
+  "gw-news-digest": {
+    "channel_id": "1476579993252528261",
+    "server": "ghost-writer",
+    "post_via": "bot_token"
+  }
+}
